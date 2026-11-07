@@ -3791,7 +3791,7 @@ TARGET_DEVICES += zio_freezio
 define Device/zte_mf258
   $(Device/nand)
   $(Device/uimage-lzma-loader)
-  IMAGE_SIZE := 112640k
+  IMAGE_SIZE := 115200k
   KERNEL_SIZE := 8192k
   DEVICE_VENDOR := ZTE
   DEVICE_MODEL := MF258
